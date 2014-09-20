@@ -1,0 +1,30 @@
+---
+abstract: 'Renderizador de boletos em PDF'
+author:
+  - 'Blabos de Blebe <blabos@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Business-BR-Boleto-Renderer-PDF
+requires:
+  Business::BR::Boleto::Utils: '0.000001'
+  Const::Fast: '0.014'
+  Cwd: '3.47'
+  Digest::SHA: '5.92'
+  Encode: '2.62'
+  File::Path: '2.09'
+  File::ShareDir: '1.102'
+  File::Spec::Functions: '3.47'
+  Locale::Currency::Format: '1.30'
+  Moo: '1.00600'
+  PDF::API2: '2.023'
+resources:
+  bugtracker: https://github.com/blabos/Business-BR-Boleto-Renderer-PDF/issues
+  repository: https://github.com/blabos/Business-BR-Boleto-Renderer-PDF
+version: '0.000001'
